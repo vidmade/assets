@@ -1,0 +1,858 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2025-07-15T00:00:00Z",
+  "assets": {
+    "transitions": {
+      "crossfade": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/crossfade.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1024,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Crossfade",
+          "description": "Smooth fade between clips",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/crossfade.gif"
+        }
+      },
+      "slide_left": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/slide_left.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1024,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Slide Left",
+          "description": "New clip slides in from right",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/slide_left.gif"
+        }
+      },
+      "slide_right": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/slide_right.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1024,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Slide Right",
+          "description": "New clip slides in from left",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/slide_right.gif"
+        }
+      },
+      "zoom_in": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/zoom_in.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Zoom In",
+          "description": "Zoom into next clip",
+          "duration_ms": "600",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/zoom_in.gif"
+        }
+      },
+      "zoom_out": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/zoom_out.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Zoom Out",
+          "description": "Zoom out from current clip",
+          "duration_ms": "600",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/zoom_out.gif"
+        }
+      },
+      "wipe_left": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/wipe_left.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1536,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Wipe Left",
+          "description": "Vertical wipe from left",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/wipe_left.gif"
+        }
+      },
+      "wipe_right": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/wipe_right.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1536,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Wipe Right",
+          "description": "Vertical wipe from right",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/wipe_right.gif"
+        }
+      },
+      "circle_open": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/circle_open.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Circle Open",
+          "description": "Circular reveal",
+          "duration_ms": "700",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/circle_open.gif"
+        }
+      },
+      "glitch": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/glitch.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 3072,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Glitch",
+          "description": "Digital glitch effect",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/glitch.gif"
+        }
+      },
+      "morph": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/morph.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 4096,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Morph",
+          "description": "Smooth shape morphing",
+          "duration_ms": "800",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/morph.gif"
+        }
+      },
+      "pixelize": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/pixelize.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Pixelize",
+          "description": "Blocky pixel transition",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/pixelize.gif"
+        }
+      },
+      "blur_fade": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/blur_fade.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Blur Fade",
+          "description": "Blur and crossfade",
+          "duration_ms": "600",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/blur_fade.gif"
+        }
+      },
+      "color_flash": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/color_flash.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1536,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Color Flash",
+          "description": "White flash transition",
+          "duration_ms": "300",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/color_flash.gif"
+        }
+      },
+      "luma_fade": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/luma_fade.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Luma Fade",
+          "description": "Brightness-based fade",
+          "duration_ms": "500",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/luma_fade.gif"
+        }
+      },
+      "rotate": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/rotate.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Rotate",
+          "description": "Spin transition",
+          "duration_ms": "700",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/rotate.gif"
+        }
+      },
+      "flip": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/transitions/flip.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Transitions",
+        "metadata": {
+          "name": "Flip",
+          "description": "3D card flip",
+          "duration_ms": "800",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/transitions/flip.gif"
+        }
+      }
+    },
+    "filters": {
+      "vintage": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/vintage.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Filters",
+        "metadata": {
+          "name": "Vintage",
+          "description": "Retro film look with vignette",
+          "intensity": "0.8",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/vintage.jpg"
+        }
+      },
+      "cinematic": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/cinematic.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Filters",
+        "metadata": {
+          "name": "Cinematic",
+          "description": "Movie-like color grading",
+          "intensity": "0.7",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/cinematic.jpg"
+        }
+      },
+      "noir": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/noir.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1536,
+        "category": "Filters",
+        "metadata": {
+          "name": "Noir",
+          "description": "High contrast black & white",
+          "intensity": "0.9",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/noir.jpg"
+        }
+      },
+      "warm": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/warm.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1536,
+        "category": "Filters",
+        "metadata": {
+          "name": "Warm",
+          "description": "Golden hour warmth",
+          "intensity": "0.6",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/warm.jpg"
+        }
+      },
+      "cool": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/cool.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1536,
+        "category": "Filters",
+        "metadata": {
+          "name": "Cool",
+          "description": "Cool blue tones",
+          "intensity": "0.6",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/cool.jpg"
+        }
+      },
+      "fade": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/fade.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1536,
+        "category": "Filters",
+        "metadata": {
+          "name": "Fade",
+          "description": "Low contrast vintage look",
+          "intensity": "0.7",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/fade.jpg"
+        }
+      },
+      "sepia": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/sepia.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1024,
+        "category": "Filters",
+        "metadata": {
+          "name": "Sepia",
+          "description": "Classic sepia tone",
+          "intensity": "0.8",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/sepia.jpg"
+        }
+      },
+      "technicolor": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/technicolor.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Filters",
+        "metadata": {
+          "name": "Technicolor",
+          "description": "Vibrant 3-strip film look",
+          "intensity": "0.7",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/technicolor.jpg"
+        }
+      },
+      "polaroid": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/polaroid.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Filters",
+        "metadata": {
+          "name": "Polaroid",
+          "description": "Instant camera aesthetic",
+          "intensity": "0.8",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/polaroid.jpg"
+        }
+      },
+      "film_grain": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/film_grain.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 3072,
+        "category": "Filters",
+        "metadata": {
+          "name": "Film Grain",
+          "description": "Authentic film texture",
+          "intensity": "0.5",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/film_grain.jpg"
+        }
+      },
+      "halftone": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/halftone.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Filters",
+        "metadata": {
+          "name": "Halftone",
+          "description": "Comic book dot pattern",
+          "intensity": "0.6",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/halftone.jpg"
+        }
+      },
+      "cross_process": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/filters/cross_process.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Filters",
+        "metadata": {
+          "name": "Cross Process",
+          "description": "Color shift from wrong chemicals",
+          "intensity": "0.7",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/filters/cross_process.jpg"
+        }
+      }
+    },
+    "luts": {
+      "cinematic": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/cinematic.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Cinematic",
+          "description": "Teal & orange blockbuster look",
+          "intensity": "1.0",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/cinematic.jpg",
+          "type": "film"
+        }
+      },
+      "vintage": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/vintage.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Vintage",
+          "description": "70s film stock emulation",
+          "intensity": "0.8",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/vintage.jpg",
+          "type": "retro"
+        }
+      },
+      "film_stock": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/film_stock.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Film Stock",
+          "description": "Kodak Portra 400 emulation",
+          "intensity": "1.0",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/film_stock.jpg",
+          "type": "film"
+        }
+      },
+      "teal_orange": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/teal_orange.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Teal & Orange",
+          "description": "Hollywood action movie grade",
+          "intensity": "0.9",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/teal_orange.jpg",
+          "type": "blockbuster"
+        }
+      },
+      "noir": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/noir.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Noir",
+          "description": "High contrast B&W",
+          "intensity": "1.0",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/noir.jpg",
+          "type": "bw"
+        }
+      },
+      "wedding": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/wedding.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Wedding",
+          "description": "Soft romantic tones",
+          "intensity": "0.7",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/wedding.jpg",
+          "type": "romance"
+        }
+      },
+      "horror": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/horror.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Horror",
+          "description": "Desaturated green tint",
+          "intensity": "0.9",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/horror.jpg",
+          "type": "dark"
+        }
+      },
+      "documentary": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/documentary.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Documentary",
+          "description": "Natural realistic look",
+          "intensity": "0.8",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/documentary.jpg",
+          "type": "realism"
+        }
+      },
+      "sunset": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/sunset.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Golden Hour",
+          "description": "Warm sunset glow",
+          "intensity": "0.8",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/sunset.jpg",
+          "type": "warm"
+        }
+      },
+      "cyberpunk": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/luts/cyberpunk.cube",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 32768,
+        "category": "LUTs",
+        "metadata": {
+          "name": "Cyberpunk",
+          "description": "Neon pink/cyan night",
+          "intensity": "0.9",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/luts/cyberpunk.jpg",
+          "type": "neon"
+        }
+      }
+    },
+    "effects": {
+      "vhs": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/vhs.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 4096,
+        "category": "Effects",
+        "metadata": {
+          "name": "VHS",
+          "description": "Retro VHS tape glitch",
+          "parameters": "noise, tracking, color_bleed",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/vhs.gif"
+        }
+      },
+      "glitch": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/glitch.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 3072,
+        "category": "Effects",
+        "metadata": {
+          "name": "Glitch",
+          "description": "Digital corruption effect",
+          "parameters": "intensity, frequency, rgb_shift",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/glitch.gif"
+        }
+      },
+      "rgb_shift": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/rgb_shift.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Effects",
+        "metadata": {
+          "name": "RGB Shift",
+          "description": "Chromatic aberration",
+          "parameters": "amount, angle",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/rgb_shift.gif"
+        }
+      },
+      "scanlines": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/scanlines.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 1024,
+        "category": "Effects",
+        "metadata": {
+          "name": "Scanlines",
+          "description": "CRT monitor effect",
+          "parameters": "intensity, spacing",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/scanlines.gif"
+        }
+      },
+      "film_burn": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/film_burn.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 3072,
+        "category": "Effects",
+        "metadata": {
+          "name": "Film Burn",
+          "description": "Light leak overlays",
+          "parameters": "opacity, color, animation_speed",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/film_burn.gif"
+        }
+      },
+      "lens_flare": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/lens_flare.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 4096,
+        "category": "Effects",
+        "metadata": {
+          "name": "Lens Flare",
+          "description": "Anamorphic lens artifacts",
+          "parameters": "intensity, position, color",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/lens_flare.gif"
+        }
+      },
+      "bokeh": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/bokeh.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 3072,
+        "category": "Effects",
+        "metadata": {
+          "name": "Bokeh",
+          "description": "Depth of field blur",
+          "parameters": "radius, shape, threshold",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/bokeh.gif"
+        }
+      },
+      "motion_blur": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/motion_blur.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 3072,
+        "category": "Effects",
+        "metadata": {
+          "name": "Motion Blur",
+          "description": "Directional blur for speed",
+          "parameters": "angle, distance, samples",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/motion_blur.gif"
+        }
+      },
+      "zoom_blur": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/zoom_blur.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 2048,
+        "category": "Effects",
+        "metadata": {
+          "name": "Zoom Blur",
+          "description": "Radial zoom streaks",
+          "parameters": "center, strength",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/zoom_blur.gif"
+        }
+      },
+      "kaleidoscope": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/effects/kaleidoscope.glsl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 3072,
+        "category": "Effects",
+        "metadata": {
+          "name": "Kaleidoscope",
+          "description": "Mirror symmetry pattern",
+          "parameters": "segments, rotation",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/effects/kaleidoscope.gif"
+        }
+      }
+    },
+    "overlays": {
+      "light_leak_1": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/overlays/light_leak_1.mp4",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 5242880,
+        "category": "Overlays",
+        "metadata": {
+          "name": "Light Leak 1",
+          "description": "Warm orange light leak",
+          "blend_mode": "screen",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/overlays/light_leak_1.gif"
+        }
+      },
+      "light_leak_2": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/overlays/light_leak_2.mp4",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 5242880,
+        "category": "Overlays",
+        "metadata": {
+          "name": "Light Leak 2",
+          "description": "Cool blue light leak",
+          "blend_mode": "screen",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/overlays/light_leak_2.gif"
+        }
+      },
+      "dust_scratches": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/overlays/dust_scratches.mp4",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 10485760,
+        "category": "Overlays",
+        "metadata": {
+          "name": "Dust & Scratches",
+          "description": "Film damage texture",
+          "blend_mode": "overlay",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/overlays/dust_scratches.gif"
+        }
+      },
+      "film_grain_overlay": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/overlays/film_grain.mp4",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 10485760,
+        "category": "Overlays",
+        "metadata": {
+          "name": "Film Grain",
+          "description": "Animated film grain",
+          "blend_mode": "overlay",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/overlays/film_grain.gif"
+        }
+      },
+      "bokeh_overlay": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/overlays/bokeh.mp4",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 10485760,
+        "category": "Overlays",
+        "metadata": {
+          "name": "Bokeh Lights",
+          "description": "Out of focus highlights",
+          "blend_mode": "screen",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/overlays/bokeh.gif"
+        }
+      },
+      "vignette": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/overlays/vignette.png",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 204800,
+        "category": "Overlays",
+        "metadata": {
+          "name": "Vignette",
+          "description": "Darkened corners",
+          "blend_mode": "multiply",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/overlays/vignette.jpg"
+        }
+      },
+      "letterbox": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/overlays/letterbox.png",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 102400,
+        "category": "Overlays",
+        "metadata": {
+          "name": "Letterbox",
+          "description": "Cinematic black bars",
+          "blend_mode": "normal",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/overlays/letterbox.jpg"
+        }
+      }
+    },
+    "fonts": {
+      "poppins": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/fonts/Poppins-Regular.ttf",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 150000,
+        "category": "Fonts",
+        "metadata": {
+          "name": "Poppins",
+          "description": "Geometric sans-serif",
+          "weights": "400,500,600,700",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/fonts/poppins.jpg"
+        }
+      },
+      "montserrat": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/fonts/Montserrat-Regular.ttf",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 150000,
+        "category": "Fonts",
+        "metadata": {
+          "name": "Montserrat",
+          "description": "Modern urban sans-serif",
+          "weights": "400,500,600,700,800,900",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/fonts/montserrat.jpg"
+        }
+      },
+      "roboto": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/fonts/Roboto-Regular.ttf",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 150000,
+        "category": "Fonts",
+        "metadata": {
+          "name": "Roboto",
+          "description": "Google's system font",
+          "weights": "300,400,500,700,900",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/fonts/roboto.jpg"
+        }
+      },
+      "inter": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/fonts/Inter-Regular.ttf",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 150000,
+        "category": "Fonts",
+        "metadata": {
+          "name": "Inter",
+          "description": "UI-focused font family",
+          "weights": "400,500,600,700",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/fonts/inter.jpg"
+        }
+      },
+      "space_grotesk": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/fonts/SpaceGrotesk-Regular.ttf",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 150000,
+        "category": "Fonts",
+        "metadata": {
+          "name": "Space Grotesk",
+          "description": "Tech/modern display font",
+          "weights": "400,500,600,700",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/fonts/space_grotesk.jpg"
+        }
+      }
+    },
+    "sound_effects": {
+      "whoosh_1": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/whoosh_1.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 50000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Whoosh 1",
+          "description": "Fast swipe transition sound",
+          "duration": "0.5s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/whoosh_1.mp3"
+        }
+      },
+      "whoosh_2": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/whoosh_2.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 50000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Whoosh 2",
+          "description": "Soft air movement",
+          "duration": "0.8s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/whoosh_2.mp3"
+        }
+      },
+      "pop": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/pop.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 30000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Pop",
+          "description": "UI click/pop sound",
+          "duration": "0.1s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/pop.mp3"
+        }
+      },
+      "snap": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/snap.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 40000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Snap",
+          "description": "Finger snap sound",
+          "duration": "0.2s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/snap.mp3"
+        }
+      },
+      "impact": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/impact.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 80000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Impact",
+          "description": "Heavy hit/thud",
+          "duration": "0.5s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/impact.mp3"
+        }
+      },
+      "riser": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/riser.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 100000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Riser",
+          "description": "Tension building sweep",
+          "duration": "2.0s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/riser.mp3"
+        }
+      },
+      "downer": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/downer.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 100000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Downer",
+          "description": "Energy drop sound",
+          "duration": "1.0s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/downer.mp3"
+        }
+      },
+      "glitch_sfx": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/glitch.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 60000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Glitch",
+          "description": "Digital corruption sound",
+          "duration": "0.3s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/glitch.mp3"
+        }
+      },
+      "magic": {
+        "url": "https://raw.githubusercontent.com/vidmade/assets/main/sounds/magic.wav",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 50000,
+        "category": "Sound Effects",
+        "metadata": {
+          "name": "Magic",
+          "description": "Sparkle/chime sound",
+          "duration": "0.5s",
+          "preview": "https://raw.githubusercontent.com/vidmade/assets/main/previews/sounds/magic.mp3"
+        }
+      }
+    }
+  }
+}
